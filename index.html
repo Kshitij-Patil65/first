@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hi, I'm Alex Rivera</title>
+  <meta name="description" content="Personal introduction page of Alex Rivera, designer and developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="glow g1" aria-hidden="true"></div>
+  <div class="glow g2" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo">Kshitij Patil.</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">What I do</a>
+      <a href="#contact" class="pill">Say hello</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker">Designer &amp; developer based in Kolhapur</p>
+        <h1>Hi, I'm Kshitij Patil. I build calm, curious things for the web.</h1>
+        <p class="lead">I turn messy ideas into interfaces people enjoy using, from the first sketch to the last pixel.</p>
+        <div class="actions">
+          <a href="#contact" class="btn primary">Start a conversation</a>
+          <a href="#work" class="btn ghost">See what I do</a>
+        </div>
+      </div>
+
+      <div class="scene" id="scene" aria-hidden="true">
+        <div class="world">
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="ring r3"></div>
+          <div class="cube">
+            <span class="face f-front"></span>
+            <span class="face f-back"></span>
+            <span class="face f-right"></span>
+            <span class="face f-left"></span>
+            <span class="face f-top"></span>
+            <span class="face f-bottom"></span>
+            <span class="core"></span>
+          </div>
+          <div class="orbit o1"><i class="orb peach"></i></div>
+          <div class="orbit o2"><i class="orb mint"></i></div>
+          <div class="orbit o3"><i class="orb lilac"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>A little about me</h2>
+      <p>I've spent the last six years shaping products for small teams and big ideas. I like clear writing, careful spacing and code that reads like a good note to a future colleague. Away from the screen you'll find me hiking the Sahyadri hills or trying to perfect my filter coffee.</p>
+    </section>
+
+    <section id="work" class="work">
+      <h2>What I do</h2>
+      <div class="cards">
+        <article class="card tilt">
+          <h3>Interface design</h3>
+          <p>Layouts, type and motion that make complex things feel simple.</p>
+        </article>
+        <article class="card tilt">
+          <h3>Front-end development</h3>
+          <p>Fast, accessible sites built with modern HTML, CSS and JavaScript.</p>
+        </article>
+        <article class="card tilt">
+          <h3>Brand and identity</h3>
+          <p>Visual systems that give a project a voice people remember.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Have a project in mind?</h2>
+      <p>I reply to every message within two days.</p>
+      <a class="btn primary big" href="mailto:hello@example.com">hello@example.com</a>
+    </section>
+  </main>
+
+  <footer><p>Designed and built by Kshitij Patil</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
